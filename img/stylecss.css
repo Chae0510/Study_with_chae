@@ -8,15 +8,14 @@ a {color: inherit; text-decoration: none;}
 
 /* header*/
 body {font-family:'Nanum Gothic', font-size:16px; color:#333; line-height:1.25;}
-header {width:100%; height:90px; background:#fff; box-shadow:0 4px 10px rgba(0,0,0,0.1);
- position:relative;}
+header {width: 100%; height: 90px; background: #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);position: relative;}
 .innerHeader .util ul { width: 240px; height: 100%; float: left; line-height:90px; margin-left: 2%; }
 .innerHeader .util ul li {float: left; padding: 0 15px;}
 .innerHeader .logo {width: 270px; line-height: 90px; position: absolute; left: 50%; transform: translateX(-50%);}
 .innerHeader .logo a {display: block; width: 100%; height: 100%;}
 
 /*section main1*/
-.main {width: 100%; height: auto; background-image: url(../img/Coding_image.jpg); background-size: cover; background-position:center; background-repeat: no-repeat; position: relative; font-color:#FFFFFF}
+.main {width: 100%; height: auto; background-image: url('mainimage.jpg'); background-size: cover; background-position:center; background-repeat: no-repeat; position: relative;}
 .main .inner {width: 1400px; height: 800px;margin: 0 auto;  position: relative;}
 .main .inner .maintitle {width: 653px; height: auto; }
 .main .inner .maintitle h2{ position: absolute; top: 30%; left: 0; font-size: 50px; line-height: 1.3; color: black;}
@@ -48,8 +47,8 @@ header {width:100%; height:90px; background:#fff; box-shadow:0 4px 10px rgba(0,0
 
 /*section news*/
 .news {width: 1400px; height: auto; margin: 0 auto; overflow: hidden;}
-.news .issue {margin-top: 50px; width: 49.25%; height: 280px; float: left; background-image: url(../img/img1.jpg);background-repeat: no-repeat; background-size: cover; background-position: center; margin-right: 1.5%;}
-.news .issue:nth-child(2) {margin-right: 0;background-image: url(../img/img2.jpg);}
+.news .issue {margin-top: 50px; width: 49.25%; height: 280px; float: left; background-image: url('img1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center; margin-right: 1.5%;}
+.news .issue:nth-child(2) {margin-right: 0;background-image: url('img1.jpg');}
 .news .issue h2{margin-top: 10%; margin-left: 10%; }
 .news .issue p {font-size: 15px; color: #333; margin-top: 20px; margin-left: 10%;}
 
